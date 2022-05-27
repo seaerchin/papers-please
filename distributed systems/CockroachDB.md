@@ -21,4 +21,24 @@
 3. Distribution -> presents an abstraction of *monolithic logical key space ordered by key* 
 	- this implies that all data is addressable by key
 	- CRDB uses *range partitioning* on the keys to divide data into 64MB of contiguous ordered chunks 
-	- 
+
+### Ranges
+- 64MB chosen as a sweet spot as it's small enough to easily shift between nodes but large enough to store contiguous set of data liekly to be accessed together 
+- Ranges start empty, split when too large and merge when too small (ie, rebalancing)
+- Ranges also split based on load to reduce hotspots and cpu usage imbalances
+- each range is replicated 3x w/ each copy on diff node -> ensures durability of modifications using consensus-based replication
+
+## Fault tolerance and high availability
+- A is guaranteed through 3 measures
+	- replication of data 
+	- automatic recovery (when fail) 
+	- strategic data placement 
+
+### Replication using RAFT 
+- Each range is partitioned 3-ways and they form a *RAFT group*, where there is 1 leader and 2 followers 
+- The unit of replication in CRDB is a *command* 
+	- *definition:* a command is a *sequence of low-level edits* to be made to the storage engine
+- RAFT maintains a consistent, ordered log of updates across replicas and each replica applies update when RAFT declares it as *committed*
+- CRDB uses range-level *leases*, where a replica (usually the RAFT leader) acts as the *leaseholder*. 
+	- This makes it the **only** replica allowed to serve authoritative **up-to-date** reads or propose writes to the leader. 
+	- when would the leaseholder **not** be the leader? 
