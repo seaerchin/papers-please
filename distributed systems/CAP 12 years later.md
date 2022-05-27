@@ -16,3 +16,12 @@ which seems to imply that CA should only be chosen when the probability of other
 	- *cancel* operation and thus preserve C but forfeits A 
 	- *proceed* operation and thus preserves A but forfeits C 
 - retrying the communication does not solve the problem but simply delays the choice - even if current retry fails, there's no guarantee that next one will succeed. at some point, the program will have to make the decision 
+- hence, a partition is a *time bound on communication* -> failure to achieve consistency within this time bound thus implies a partition
+
+**Collorary 1**: There is no global notion of a partition
+*Proof*: consider 2 nodes (A, B) that are part of a system. Assume that A has time-out of 1s and B never -> A will assume partition if request takes 2s but B will see that it succeeded.  ^ac31ec
+
+**Collorary 2**: Nodes can enter a *partition mode* 
+*Proof*: From [[#^ac31ec| Collorary 1]], when A detects a timeout, A assumes a partition and can take certain measures to circumvent 
+
+****
