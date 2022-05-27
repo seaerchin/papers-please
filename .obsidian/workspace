@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "distributed systems/CAP 12 years later.md",
+            "file": "distributed systems/CockroachDB.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "distributed systems/CAP 12 years later.md",
+                "file": "distributed systems/CockroachDB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,8 +90,8 @@
   },
   "active": "393b0fa111697319",
   "lastOpenFiles": [
-    "distributed systems/CAP 12 years later.md",
     "distributed systems/CockroachDB.md",
+    "distributed systems/CAP 12 years later.md",
     "distributed systems/CAP and feasibility of CAP web services.md",
     "^ac31ec.md"
   ]
