@@ -2,4 +2,17 @@
 
 - partitioning is not guaranteed -> partitions rarely happens and when they are **not** present in the system, there is little incentive to forfeit either C || A 
 - choice between C || A can happen many times in the system at *differing levels of granularity* -> subsystems are allowed to make diff choices for C || A and it can vary based on many factors 
-- C || A is **not** a binary choice (eg: if C is ch)
+- C || A is **not** a binary choice (eg: if C is chosen then forfeits A) but more of a sliding scale -> eg: if strong consistency is the guarantee offered under C then A cannot be "always available"
+
+- as the paper notes, 
+
+> choosing CA should mean that the probability of a partition is far less than that of other systemic failures, such as disasters or multiple simultaneous faults.
+
+which seems to imply that CA should only be chosen when the probability of other failures >> partition risk (what's the failover strategy in this case?)
+
+# CAP latency connection
+## partition decision
+- during a timeout, a program must always make a *partition decision*: 
+	- *cancel* operation and thus preserve C but forfeits A 
+	- *proceed* operation and thus preserves A but forfeits C 
+- retrying the communication does not solve the problem but simply delays the choice - even if current retry fails, there's no guarantee that next one will succeed. at some point, the program will have to make the decision 
