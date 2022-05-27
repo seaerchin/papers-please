@@ -42,3 +42,16 @@
 - CRDB uses range-level *leases*, where a replica (usually the RAFT leader) acts as the *leaseholder*. 
 	- This makes it the **only** replica allowed to serve authoritative **up-to-date** reads or propose writes to the leader. 
 	- when would the leaseholder **not** be the leader? 
+
+> as writes go through the leaseholder, reads can bypass networking round trips required by RAFT without sacrificing consistency
+
+**what does this mean?** 
+*Guess*: if we serve reads from the **leaseholder** then all reads will naturally be up-to-date and "consistent".  
+
+However, consider the following scenario: 
+- Leaseholder (LH) serves read 1
+- client writes to LH
+- LH + rest dies before write can be broadcasted -> only Leader (L) remains, without write 
+- client reads -> served by L, when recover, network will be missing the write **unless** the write is propagated (but then we will already be inconsistent with the current read)
+
+
