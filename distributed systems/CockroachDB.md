@@ -8,3 +8,5 @@
 	3. high performance transactions -> CRDB's transaction protocol supports performant geo-distrbuted transactions. this allows for *serializable isolatin* without specialized hardware. 
 
 # System Overview 
+## Architecture of CockroachDB
+- *shared nothing architecture* -> all nodes are used for both data storage and computation
