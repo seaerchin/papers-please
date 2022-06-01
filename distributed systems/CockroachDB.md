@@ -66,3 +66,63 @@ However, consider the following scenario:
 
 [How leases are transferred from a dead node](https://www.cockroachlabs.com/docs/stable/architecture/replication-layer.html)
 - LH1 goes down - (4.5s passes) -> heartbeat not ACKed -> follower tries to acquire lease -> rejected as only L can acquire -> (if L goes down, elect L' else L takes over as LH) -> LH2 established -> write to DB and broadcast to network -> LH1 joins back but knows that cannot be LH as LH2 with version of 2 > 1 
+	- prior to LH2 acquiring a lease, it needs to include LH1's lease when requesting for the new lease. 
+
+### Membership changes and automatic load rebalancing 
+- short term failures use RAFT to failover
+
+> For longer-term failures, CRDB automatically creates new replicas of under-replicated Ranges
+
+- ^ the above seems to imply that a long term failure will cause the RAFT group (of 3 nodes) to operate as a master-slave config (1-1) 
+	- what counts as "long-term failure"? if i have a node dropping ~70% of requests but responds to heartbeat, does that count?
+- overseer (possibly co-ordinator) assigns a node to the range group that has the failure 
+	- the RAFT leader then initiates the catchup process
+
+### Replica placement
+- 2 parts - user/automatic
+	- user can determine through node locality (eg: country) or capability (eg: RAM -> maybe only US-E has it)
+	- automatic done through spreading replicas across failure domains (eg: rack | center | geographic) 
+
+## Data Placement Policies
+- **geo-partitioned replica**: high # of req from specific location + latency is a concern
+	- fast intra-region reads + writes but if that AZ goes down, this means a widespread failure for data specific to that region 
+- **geo-partitioned leaseholders**: can survive AZ going down but slow to write (reads can go through the lease-holder so it's still fast)
+- **duplicated indexes**: write amplification (1 write might potentially alter b-tree structure underneath + this needs to be duplicated across indexes) + slower cross-region writes but useful when data is **infrequently updated** + geographically distrtibuted
+	- note that leaseholders are still pinned to the region
+
+# Transactions
+- a transaction can span the **entire** key-space.
+	- does this means that eg: W1 (v2) -> R1, R1 will have to read stale (v < 2 = 1) data to avoid latency?
+	- logical seq: R1 -> W1 as version of R1 is 1 and version of W1 is 2 
+- CRDB uses *multi-version concurrency control* (MVCC)to provide *serialization isolation*
+		- [serializable isolation](https://www.postgresql.org/docs/current/transaction-iso.html#XACT-SERIALIZABLE) is the guarantee that all events to the database can be seen as a **linear** sequence of events 
+
+## Overview
+- a transaction starts at the *gateway* node. This node co-ordinates requests between client and db.
+
+### Execution at xact co-ord
+- sql requires that response to current op must be returned before next op can be issued. 
+	- hence, to avoid stalling while ops are replicated, co-ordinator uses 2 optimizations: *write pipelining* and *parallel commits*
+
+- *Write pipelining* allows for returning a result w/o waiting for the replication of the current operation 
+		- **Question**: how can this be durable then? eg: if i write x = 1 and i don't replicate, it is entirely possible that eg: Leader crashes -> Replicas become new leader -> old leader recovers and becomes replica -> ??? 
+	- *Ans:* TODO (probably related to RAFT failover, section on logs)
+
+- *Parallel commits* let the commit op + write pipeline replicate in parallel
+
+- Allows multi statement SQL xact to complete w/ latency of single round replication 
+	- presumably, LH keeps broadcasting commit ops with last ACK-ed op as starting?
+
+#### Write pipelining
+???
+
+#### Parallel commits
+???
+
+## Atomicity Guarantees
+- all writes are *provisional* (ie, subject to change) until commit time -> such provisional writes are called *write intents*
+
+*definition (write intents)*: A write intent is a regular MVCC kv pair except that it has meta-data at the start indicating that it is an intent. 
+	- this metadata points to a *transaction record*, which is a special key (unique per xact) that stores the current state of the xact (`pending | staging | committed | aborted`)
+
+- 
