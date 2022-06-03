@@ -119,10 +119,10 @@ However, consider the following scenario:
 #### Parallel commits
 ???
 
+NOTE: reader is referring to L2 -> the K/V overseeing teh ranges 
+
 ## Atomicity Guarantees
 - all writes are *provisional* (ie, subject to change) until commit time -> such provisional writes are called *write intents*
 
 *definition (write intents)*: A write intent is a regular MVCC kv pair except that it has meta-data at the start indicating that it is an intent. 
 	- this metadata points to a *transaction record*, which is a special key (unique per xact) that stores the current state of the xact (`pending | staging | committed | aborted`)
-
-- 

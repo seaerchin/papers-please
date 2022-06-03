@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "393b0fa111697319",
+        "id": "b518d3c14f2a618d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "distributed systems/CockroachDB.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -70,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "distributed systems/CockroachDB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +83,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "393b0fa111697319",
+  "active": "b518d3c14f2a618d",
   "lastOpenFiles": [
     "distributed systems/CockroachDB.md",
     "distributed systems/CAP 12 years later.md",
