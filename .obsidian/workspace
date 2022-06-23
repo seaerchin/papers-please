@@ -7,8 +7,12 @@
         "id": "d9258eef066a7794",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "compilers/crafting interpreters/scanning.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -49,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "790d725480195d0c",
@@ -66,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "compilers/crafting interpreters/scanning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,6 +89,7 @@
   },
   "active": "d9258eef066a7794",
   "lastOpenFiles": [
+    "compilers/crafting interpreters/scanning.md",
     "distributed systems/CockroachDB.md",
     "distributed systems/CAP 12 years later.md",
     "distributed systems/CAP and feasibility of CAP web services.md",
