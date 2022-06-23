@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "9e7bbbe2fac1a5d6",
+        "id": "d9258eef066a7794",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -83,7 +83,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9e7bbbe2fac1a5d6",
+  "active": "d9258eef066a7794",
   "lastOpenFiles": [
     "distributed systems/CockroachDB.md",
     "distributed systems/CAP 12 years later.md",
