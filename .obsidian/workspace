@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "compilers/crafting interpreters/representing code.md",
+            "file": "compilers/crafting interpreters/parsing expressions.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "compilers/crafting interpreters/representing code.md",
+                "file": "compilers/crafting interpreters/parsing expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,9 +89,10 @@
   },
   "active": "2f516f783ee023e4",
   "lastOpenFiles": [
+    "compilers/crafting interpreters/parsing expressions.md",
+    "compilers/crafting interpreters/scanning.md",
     "compilers/crafting interpreters/representing code.md",
     "Untitled.md",
-    "compilers/crafting interpreters/scanning.md",
     "distributed systems/CockroachDB.md",
     "distributed systems/CAP 12 years later.md",
     "distributed systems/CAP and feasibility of CAP web services.md",
