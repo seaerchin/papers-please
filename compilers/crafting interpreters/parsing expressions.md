@@ -23,3 +23,10 @@ unary          → ( "-" | "!" ) expression ;
 binary         → expression operator expression ;
 operator       → "==" | "!=" | "<" | "<=" | ">" | ">="
                | "+"  | "-"  | "*" | "/" ;
+
+# recursive descent parsing
+- we need to ensure no left recursion as it might lead into an infinite loop 
+	- eg: a -> a | "something" will cause the parser to keep leading into a
+	- we can just rearrange 
+- we need to have precedence (see [[#ambiguity]]). as we are using recursive descent , we could split up our rules by precedence and write our parser from the top-down (highest priority should be tried last)
+	- this means that we always try the lower priority first and then if it fails, try to match something of a higher priority

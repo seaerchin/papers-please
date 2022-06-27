@@ -7,8 +7,12 @@
         "id": "a51710a51f46f368",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "compilers/crafting interpreters/parsing expressions.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "compilers/crafting interpreters/parsing expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,8 +90,8 @@
   "active": "a51710a51f46f368",
   "lastOpenFiles": [
     "compilers/crafting interpreters/parsing expressions.md",
-    "compilers/crafting interpreters/scanning.md",
     "compilers/crafting interpreters/representing code.md",
+    "compilers/crafting interpreters/scanning.md",
     "Untitled.md",
     "distributed systems/CockroachDB.md",
     "distributed systems/CAP 12 years later.md",

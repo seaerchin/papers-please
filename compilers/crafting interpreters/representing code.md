@@ -17,4 +17,4 @@
 	- this visitor class then has a single method (typically `visi6t`) that calls the accept argument of each class with the instance itself. 
 	- this is essentially doing double dispatch (first to the visitor then to the base class)
 	- now, when we want to add new functionality, we simply have to add it in the visitor class rather than every single associated class 
-	- 
+
