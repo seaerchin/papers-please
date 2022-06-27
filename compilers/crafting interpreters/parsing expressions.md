@@ -7,27 +7,19 @@
 ## associativity 
 - operators can be left/right associative. this affects the logical grouping order (from left/right) 
 
+# left recursion 
+- left recursion for a production rule (something -> something | some other thing) is difficult to handle in a LALR parser because it will infinitely recurse 
 
+# strategies 
+1. lox stratifies the grammar into different precedence lvels, where the rule matches expressions at its own level or higher. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+>expression     → literal
+               | unary
+               | binary
+               | grouping ;
+literal        → NUMBER | STRING | "true" | "false" | "nil" ;
+grouping       → "(" expression ")" ;
+unary          → ( "-" | "!" ) expression ;
+binary         → expression operator expression ;
+operator       → "==" | "!=" | "<" | "<=" | ">" | ">="
+               | "+"  | "-"  | "*" | "/" ;
