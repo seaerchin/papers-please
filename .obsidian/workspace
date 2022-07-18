@@ -7,8 +7,12 @@
         "id": "c57c773d9a853669",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "compilers/crafting interpreters/parsing expressions.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "compilers/crafting interpreters/parsing expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,12 +87,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8dae9b7a1aca6cd6",
+  "active": "c57c773d9a853669",
   "lastOpenFiles": [
+    "Untitled.md",
     "compilers/crafting interpreters/parsing expressions.md",
     "compilers/crafting interpreters/representing code.md",
     "compilers/crafting interpreters/scanning.md",
-    "Untitled.md",
     "distributed systems/CockroachDB.md",
     "distributed systems/CAP 12 years later.md",
     "distributed systems/CAP and feasibility of CAP web services.md",

@@ -30,3 +30,8 @@ operator       → "==" | "!=" | "<" | "<=" | ">" | ">="
 	- we can just rearrange 
 - we need to have precedence (see [[#ambiguity]]). as we are using recursive descent , we could split up our rules by precedence and write our parser from the top-down (highest priority should be tried last)
 	- this means that we always try the lower priority first and then if it fails, try to match something of a higher priority
+
+# synchronization 
+- a parser has to report errors back to the user  -> however, there could be *cascading* errors, where eg: a missed parenthesis leads to further errors.
+- a parser can minimize this through a *synchronization point* - discard tokens until it hits something safe, after which it can continue business as normal.
+	- some examples of such safe tokens are: semi-colons/closing parens etc
