@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c57c773d9a853669",
+        "id": "6abe3e267b241ab2",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "compilers/crafting interpreters/parsing expressions.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "compilers/crafting interpreters/parsing expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,10 +82,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c57c773d9a853669",
+  "active": "6abe3e267b241ab2",
   "lastOpenFiles": [
-    "Untitled.md",
     "compilers/crafting interpreters/parsing expressions.md",
+    "Untitled.md",
     "compilers/crafting interpreters/representing code.md",
     "compilers/crafting interpreters/scanning.md",
     "distributed systems/CockroachDB.md",
