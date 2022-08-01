@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "6abe3e267b241ab2",
+        "id": "06794fc66e2a89ab",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -82,8 +82,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6abe3e267b241ab2",
+  "active": "06794fc66e2a89ab",
   "lastOpenFiles": [
+    "compilers/crafting interpreters/evaluating expressions.md",
     "compilers/crafting interpreters/parsing expressions.md",
     "Untitled.md",
     "compilers/crafting interpreters/representing code.md",
