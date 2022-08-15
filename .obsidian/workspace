@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "651c9a5fbc3b60a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "368edf4ffe2fd9c0",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a1f5b0ae394c6e7d",
+    "type": "split",
+    "children": [
+      {
+        "id": "c985cb5a0a1914d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8dae9b7a1aca6cd6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8dd71c10182695ff",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "790d725480195d0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "4b9817e834901720",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3adb8f46f51504fe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "368edf4ffe2fd9c0",
+  "lastOpenFiles": [
+    "compilers/crafting interpreters/evaluating expressions.md",
+    "compilers/crafting interpreters/parsing expressions.md",
+    "Untitled.md",
+    "compilers/crafting interpreters/representing code.md",
+    "compilers/crafting interpreters/scanning.md",
+    "distributed systems/CockroachDB.md",
+    "distributed systems/CAP 12 years later.md",
+    "distributed systems/CAP and feasibility of CAP web services.md",
+    "^ac31ec.md"
+  ]
+}
