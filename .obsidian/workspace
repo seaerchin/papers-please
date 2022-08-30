@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AWS/multi az best practices.md",
+            "file": "AWS/Brief notes.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/multi az best practices.md",
+                "file": "AWS/Brief notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,7 +90,7 @@
   "active": "c33acfdde862e315",
   "lastOpenFiles": [
     "compilers/crafting interpreters/scanning.md",
-    "AWS/multi az best practices.md",
+    "AWS/Brief notes.md",
     "distributed systems/CAP 12 years later.md",
     "Untitled.md",
     "compilers/crafting interpreters/evaluating expressions.md",
