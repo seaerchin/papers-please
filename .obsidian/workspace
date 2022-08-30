@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "368edf4ffe2fd9c0",
+        "id": "c33acfdde862e315",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -82,7 +82,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "368edf4ffe2fd9c0",
+  "active": "c33acfdde862e315",
   "lastOpenFiles": [
     "compilers/crafting interpreters/evaluating expressions.md",
     "compilers/crafting interpreters/parsing expressions.md",
