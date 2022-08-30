@@ -13,3 +13,6 @@
 
 ### ec2
 - launch templates - easy way to templatize launch requests (ie, seems to be iac platform?)
+
+### security 
+- always protect with security groups - is there a case where we don't need to?
