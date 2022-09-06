@@ -13,7 +13,7 @@ export AWS_SESSION_TOKEN=IQoJb3JpZ2luX2VjEFsaCXVzLWVhc3QtMSJIMEYCIQDk3JKLmOm2v0a
 	- static + public ipv4 addr for your ec2 instances -> can be remapped 
 - public ip mapped to private ip through [NAT](https://en.wikipedia.org/wiki/Network_address_translation)
 
-### traffic out of su net
+### traffic out of sub net
 - use route table
 	- directs traffic out of your destinations 
 
