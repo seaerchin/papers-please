@@ -27,3 +27,6 @@ export AWS_SESSION_TOKEN=IQoJb3JpZ2luX2VjEFsaCXVzLWVhc3QtMSJIMEYCIQDk3JKLmOm2v0a
 
 - we can use [transit gateway](https://aws.amazon.com/transit-gateway/) to simplify vpc mesh connections -> route sharing, so fully connected network topologies are easier 
 - we must think about cidr blocks -> big cidr blocks might overlap, causing conflicts
+
+### cidr blocks
+0.0.0.0/8 -> first 8 bits are reserved; we do a bitwise AND with the actual IP to calculate range
