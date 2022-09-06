@@ -24,3 +24,6 @@ export AWS_SESSION_TOKEN=IQoJb3JpZ2luX2VjEFsaCXVzLWVhc3QtMSJIMEYCIQDk3JKLmOm2v0a
 - use aws private link
 - use vpc peering
 - see [here](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-peering.html) for overview - aws private link is more specific; vpc peering allows range of IP
+
+- we can use [transit gateway](https://aws.amazon.com/transit-gateway/) to simplify vpc mesh connections -> route sharing, so fully connected network topologies are easier 
+- we must think about cidr blocks -> big cidr blocks might overlap, causing conflicts
