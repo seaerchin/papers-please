@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "33489dc9120cba66",
+        "id": "0b11aa352f5847e4",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "AWS/networking.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,8 +82,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "33489dc9120cba66",
+  "active": "0b11aa352f5847e4",
   "lastOpenFiles": [
+    "AWS/networking.md",
     "cidr.md",
     "AWS/general.md",
     "distributed systems/CockroachDB.md",
@@ -97,7 +93,6 @@
     "compilers/crafting interpreters/evaluating expressions.md",
     "compilers/crafting interpreters/parsing expressions.md",
     "compilers/crafting interpreters/representing code.md",
-    "distributed systems/CAP and feasibility of CAP web services.md",
-    "^ac31ec.md"
+    "distributed systems/CAP and feasibility of CAP web services.md"
   ]
 }
