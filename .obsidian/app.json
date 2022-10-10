@@ -1,5 +1,6 @@
 {
   "legacyEditor": false,
   "readableLineLength": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "vimMode": true
 }
