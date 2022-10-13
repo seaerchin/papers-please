@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0b11aa352f5847e4",
+        "id": "ba7a05a354b1a4e9",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "vim/basics.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vim/basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,8 +82,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0b11aa352f5847e4",
+  "active": "ba7a05a354b1a4e9",
   "lastOpenFiles": [
+    "vim/basics.md",
     "cidr.md",
     "AWS/networking.md",
     "AWS/general.md",
@@ -97,7 +93,6 @@
     "distributed systems/CAP 12 years later.md",
     "compilers/crafting interpreters/evaluating expressions.md",
     "compilers/crafting interpreters/parsing expressions.md",
-    "compilers/crafting interpreters/representing code.md",
-    "distributed systems/CAP and feasibility of CAP web services.md"
+    "compilers/crafting interpreters/representing code.md"
   ]
 }
