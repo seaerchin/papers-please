@@ -4,12 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "f510dbad584cb6b4",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
+        "id": "b845d01cf29087d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f510dbad584cb6b4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "1958a5123a4bc55b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.0"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -27,7 +44,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -82,7 +101,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f510dbad584cb6b4",
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "1958a5123a4bc55b",
   "lastOpenFiles": [
     "vim/basics.md",
     "cidr.md",
