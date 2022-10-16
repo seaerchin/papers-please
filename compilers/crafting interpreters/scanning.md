@@ -1,5 +1,12 @@
-# Interpreter Framework 
-- lox reads directly from the source file as it is a *scripting language* 
-	- 2 ways of execution -> either from source file or through IDLE
+## Lexemes and tokens 
+- lexical analysis aims to scan raw text and parse them into tokens called *lexemes*
+- store lexeme *type* 
+	- avoids having to do raw string comparison
 - principle of **maximal munch** - we always try to consume the longest input string possible
-- note that we can use a parser combinator (i think) to write the parse function from string into tokens but will stick to the one given here for close adherence to the source material           
+- Also needs to report errors to ensure a good user experience.
+
+> [!SUMMARY]
+> Lexical analysis aims to *transform* the source into tokens. 
+> Tokens need to contain enough metadata to be useful for other functionality of the scanner, such as error handling
+
+## Scanning feedback loop 
