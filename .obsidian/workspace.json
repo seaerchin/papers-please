@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "compilers/crafting interpreters/scanning.md",
+                "file": "vim/basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "compilers/crafting interpreters/scanning.md",
+                "file": "vim/basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,10 +100,10 @@
   },
   "active": "64606ca7309fa01d",
   "lastOpenFiles": [
+    "cidr.md",
     "compilers/crafting interpreters/scanning.md",
     "vim/basics.md",
     "compilers/crafting interpreters/Untitled.md",
-    "cidr.md",
     "AWS/networking.md",
     "AWS/general.md",
     "distributed systems/CockroachDB.md",
