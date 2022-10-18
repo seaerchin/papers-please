@@ -26,7 +26,6 @@ some examples of motions
 - 0: start of line
 
 # operators 
-
 - vim operates on operators and motions
 	- an example is d$ -> the operator is d (delete) and the motion is $
 	- we can repeat the (operator, motion) tuple by prefixing w/ number
