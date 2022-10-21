@@ -11,7 +11,7 @@ s: substitute
 	- `:s/<regex>/<new_text>`
 		- this only changes the first occurence on the line 
 		- we have to add `/g` at the end to change all occurences *on the line* 
-		- to change between \[x, y\], we can do `#,#s/old/new/g` 
+		- to change between \[x, y\], we can do `:#,#s/old/new/g` 
 		- for the whole file, we can do `:%s/old/new/g`
 v: visual mode
 	- `shift-v` is **line mode**

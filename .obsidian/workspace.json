@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vim/basics.md",
+                "file": "cidr.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd065de22e2cb0b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rust/tips and tricks.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vim/basics.md",
+                "file": "rust/tips and tricks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,17 +111,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "a5cbadd65ddfcc39",
+  "active": "dd065de22e2cb0b4",
   "lastOpenFiles": [
     "cidr.md",
+    "templates/cornell notes system.md",
+    "rust/tips and tricks.md",
+    "Untitled.md",
     "vim/basics.md",
     "compilers/crafting interpreters/scanning.md",
     "compilers/crafting interpreters/Untitled.md",
     "AWS/networking.md",
     "AWS/general.md",
-    "distributed systems/CockroachDB.md",
-    "distributed systems/CAP 12 years later.md",
-    "compilers/crafting interpreters/evaluating expressions.md",
-    "compilers/crafting interpreters/parsing expressions.md"
+    "distributed systems/CockroachDB.md"
   ]
 }
