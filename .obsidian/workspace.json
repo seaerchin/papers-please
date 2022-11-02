@@ -20,14 +20,12 @@
             }
           },
           {
-            "id": "dd065de22e2cb0b4",
+            "id": "2abbe4a65a8fca65",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "rust/tips and tricks.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.0.3"
               }
             }
           }
@@ -90,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust/tips and tricks.md",
+                "file": "cidr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,14 +106,11 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "dd065de22e2cb0b4",
+  "active": "2abbe4a65a8fca65",
   "lastOpenFiles": [
+    "rust/tips and tricks.md",
     "cidr.md",
     "templates/cornell notes system.md",
-    "rust/tips and tricks.md",
     "Untitled.md",
     "vim/basics.md",
     "compilers/crafting interpreters/scanning.md",
