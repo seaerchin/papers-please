@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2abbe4a65a8fca65",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +95,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2abbe4a65a8fca65",
+  "active": "a5cbadd65ddfcc39",
   "lastOpenFiles": [
     "rust/tips and tricks.md",
     "cidr.md",
