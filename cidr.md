@@ -2,6 +2,9 @@
 1. no access to hosts in other enterprises/internet at large - such hosts may use *enterprise level* unambiguous IP addresses.  **but** their ip might conflict with hosts in other enterprises; in reality such hosts have their access to the internet guarded through their igw/router.
 2. hosts that require access to **limited** set of external services 
 3. hosts that require **network layer access** outside organization - routers?
+jjjffff   
+
+
 
 ### private address space
 - 3 blocks of IP addr reserved for private nets 
