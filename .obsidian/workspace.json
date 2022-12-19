@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fb498a7b9b539ba5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "compilers/Ghosts of departed proofs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3bfc5719a89e2604",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PHAS/Backend.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -77,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cidr.md",
+                "file": "PHAS/Backend.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,17 +120,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a5cbadd65ddfcc39",
+  "active": "3bfc5719a89e2604",
   "lastOpenFiles": [
-    "rust/tips and tricks.md",
+    "compilers/Ghosts of departed proofs.md",
     "cidr.md",
+    "rust/tips and tricks.md",
     "templates/cornell notes system.md",
     "Untitled.md",
     "vim/basics.md",
     "compilers/crafting interpreters/scanning.md",
     "compilers/crafting interpreters/Untitled.md",
     "AWS/networking.md",
-    "AWS/general.md",
-    "distributed systems/CockroachDB.md"
+    "AWS/general.md"
   ]
 }
