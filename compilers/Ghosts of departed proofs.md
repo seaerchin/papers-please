@@ -29,3 +29,4 @@
 2. the function that returns the `newtype` has to attach a name to the `newtype` that encodes the proof into the type
 3. end users should only be allowed to consume the phantoms **not** to name them.
 
+// need to consolidate section on proof tactics to here
