@@ -30,33 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3bfc5719a89e2604",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PHAS/Backend.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ef6103f979c62760",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NestJS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.50271224975586
+    "width": 247.50271224975586,
+    "collapsed": true
   },
   "right": {
     "id": "790d725480195d0c",
@@ -114,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NestJS.md",
+                "file": "compilers/Ghosts of departed proofs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,14 +109,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ef6103f979c62760",
+  "active": "fb498a7b9b539ba5",
   "lastOpenFiles": [
-    "PHAS/Backend.md",
+    "NestJS.md",
     "compilers/Ghosts of departed proofs.md",
+    "PHAS/Backend.md",
     "cidr.md",
     "rust/tips and tricks.md",
     "templates/cornell notes system.md",
-    "NestJS.md",
     "vim/basics.md",
     "compilers/crafting interpreters/scanning.md",
     "compilers/crafting interpreters/Untitled.md",

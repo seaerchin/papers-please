@@ -49,6 +49,63 @@ Rather than using the nestJS exposed decorators, we can instead use the general 
 
 Doing so makes the code platform dependent as underlying libs may have different APIs on the response object
 
+
 ## Providers 
 
 Providers can be injected as a dependency and nest will figure out the wiring at runtime. In other words, providers *provide* some capability to the wrapper. 
+
+We need to declare the provider with the `@Injectable()` decorator to tell the NestJS runtime that this is a dependency that is managed by the NestJS IoC container
+
+> [!NOTE] Hint
+> We can use `nest g service <name>` to create a service using the cli 
+
+when injecting, we can simply put this in the constructor of the class that requires this and set visibility to `private` to skip initialisation
+
+```typescript
+@Controller('cats')
+export class CatsController {
+  constructor(private catsService: CatsService) {}
+}
+```
+
+### Property based injection
+
+can also insert a property rathber than through the constructor method. This can be done through calling the `@Inject(<name>)` decorator. 
+
+**however,** if the class doesn't `extend` another class, doing injection using the constructor is ideal.
+
+### Provider registration
+
+once we have a provider/consumer, we need to hand over the deps management to nest. this can be done through: 
+
+```typescript
+@Module({
+  controllers: [<list of controllers>], 
+  prpvoders: [<list of providers>]
+})
+
+export class AppModule {}
+```
+
+## Modules 
+
+a module is a class annotated w/ the `@Module()` decorator; this provides metadata that nest uses to organise the app structure
+	-configuration object has 4 properties: `providers/controllers/imports/exports`
+
+> [!NOTE] HINT
+> we can initialise this using the cli through `nest g module <name>`
+
+**modules are singletons by default** 
+- this allows modules to be reshared easily and modules can also re-export their shared services
+- modules can also **inject providers**
+
+#### Scoping
+
+Nest encapsulates proividers inside the module scope
+	- this means that by default, **you cannot use a module's providers anywhere else wihtout first importing the module**. 
+	- however, some providers might be reshared widely and in order to ease access to the provider (and the module by extension), we can use the `@Global()` decorator for the module (however, this is **not recommended**)
+
+#### Dynamic modules
+
+dynamic modules are modules that *can be customised by the caller*. this is done through exposing a method `forRoot` on the module root. 
+	- the properties on the dynamic module **extend** rather than override the default `@Module(...)` decorator properties.
