@@ -16,3 +16,4 @@
 - write through to the database
 - fire off sms
 	- based on the type of the hsg institution that the user selected, fire off different variants of SMS
+- write to that `hsg_user_enrollment_history`
