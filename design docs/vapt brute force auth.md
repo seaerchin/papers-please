@@ -1,3 +1,5 @@
 - do we want auth on all endpoints? 
-	- or just `/auth/verify` 
+	- or just `/auth/verify` [
+
+
 	- 
