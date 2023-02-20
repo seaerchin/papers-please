@@ -8,41 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fb498a7b9b539ba5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/cornell notes system.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0958ba1fdc26f420",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.9"
-              }
-            }
-          },
-          {
             "id": "59c2b9b1faafd557",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "distributed systems/primary backup.md",
+                "file": "distributed systems/Paxos made \"simple\".md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.50271224975586
+    "width": 247.50271224975586,
+    "collapsed": true
   },
   "right": {
     "id": "790d725480195d0c",
@@ -100,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "distributed systems/primary backup.md",
+                "file": "distributed systems/Paxos made \"simple\".md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,15 +108,15 @@
   },
   "active": "59c2b9b1faafd557",
   "lastOpenFiles": [
-    "design docs/vapt brute force auth.md",
     "templates/cornell notes system.md",
+    "distributed systems/Paxos made \"simple\".md",
+    "distributed systems/primary backup.md",
+    "design docs/vapt brute force auth.md",
     "PHAS/Backend.md",
     "compilers/Ghosts of departed proofs.md",
     "NestJS.md",
     "cidr.md",
     "rust/tips and tricks.md",
-    "vim/basics.md",
-    "compilers/crafting interpreters/scanning.md",
-    "compilers/crafting interpreters/Untitled.md"
+    "vim/basics.md"
   ]
 }
