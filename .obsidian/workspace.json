@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "fd296283e1fd815c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.15"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +106,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "fd296283e1fd815c",
+  "active": "59c2b9b1faafd557",
   "lastOpenFiles": [
     "templates/cornell notes system.md",
     "distributed systems/Paxos made \"simple\".md",
