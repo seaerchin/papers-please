@@ -30,6 +30,8 @@ In absence of message loss or failure (ie, happy path), we want a value to be ch
 > P1: An acceptor **must** accept the first proposal it receives
 
 otherwise, an acceptor (worst case: only 1) in the above case can wait for the second value, which results in no value being chosen (violation as there is valid proposal)
+- however, this **does not** mean that the acceptor cannot change its value
+- it can accept -> change 
 
 however, this might result in deadlock: 
 - several proposers can propose values -> consider 3 proposers, if we have [n, n, 1], we have gridlock. 
