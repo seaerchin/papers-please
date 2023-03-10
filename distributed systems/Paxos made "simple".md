@@ -18,3 +18,27 @@ the model that we operate in is the standard byzantine model, in which:
 - messages can take arbitrarily long to be delivered, can be duplicated and can be lost but they are not corrupted.
 
 ### choosing a value  
+- just have a single *acceptor agent* 
+	- proposer -> acceptor 
+	- this model means that if the acceptor fails, no new value can be chosen
+- alternative: have multiple acceptor agents (N is odd) 
+	- proposer -> acceptors -> if n > N//2 accept, value is chosen 
+
+In absence of message loss or failure (ie, happy path), we want a value to be chosen even if **only 1 value is proposed by 1 proposer**, which suggests the following requirement: 
+
+> **Requirement**
+> P1: An acceptor **must** accept the first proposal it receives
+
+otherwise, an acceptor (worst case: only 1) in the above case can wait for the second value, which results in no value being chosen (violation as there is valid proposal)
+
+however, this might result in deadlock: 
+- several proposers can propose values -> consider 3 proposers, if we have [n, n, 1], we have gridlock. 
+
+hence, this implies that
+
+> **Requirement**
+> An acceptor must be allowed to accept >=1 proposal
+
+and also, that a proposal will be tracked by assigning a positive integer to it, so that a proposal consists of (value, tracking integer). 
+
+this implies that a value is only chosen **when a single proposal with that value has been accepted by a majority of the acceptors**
