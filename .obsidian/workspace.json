@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "df51d8541323ffe6",
+        "id": "d71bacbdb862eefd",
         "type": "tabs",
         "children": [
           {
-            "id": "b95d16ff0b7e6c72",
+            "id": "9f119d266947ab79",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -100,7 +100,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b95d16ff0b7e6c72",
+  "active": "9f119d266947ab79",
   "lastOpenFiles": [
     "distributed systems/Paxos made \"simple\".md",
     "distributed systems/CAP and feasibility of CAP web services.md",
