@@ -11,8 +11,12 @@
             "id": "9f119d266947ab79",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "distributed systems/Paxos made moderately complex.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "distributed systems/Paxos made moderately complex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +108,7 @@
   "active": "9f119d266947ab79",
   "lastOpenFiles": [
     "distributed systems/Paxos made \"simple\".md",
+    "distributed systems/Paxos made moderately complex.md",
     "distributed systems/CAP and feasibility of CAP web services.md",
     "distributed systems/CockroachDB.md",
     "distributed systems/CAP 12 years later.md",
