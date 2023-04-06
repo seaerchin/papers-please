@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "distributed systems/Paxos made moderately complex.md",
+                "file": "distributed systems/Paxos made \"simple\".md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "distributed systems/Paxos made moderately complex.md",
+                "file": "distributed systems/Paxos made \"simple\".md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,6 +107,7 @@
   },
   "active": "9f119d266947ab79",
   "lastOpenFiles": [
+    "Untitled.md",
     "distributed systems/Paxos made \"simple\".md",
     "distributed systems/Paxos made moderately complex.md",
     "distributed systems/CAP and feasibility of CAP web services.md",

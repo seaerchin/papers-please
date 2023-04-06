@@ -43,4 +43,34 @@ hence, this implies that
 
 and also, that a proposal will be tracked by assigning a positive integer to it, so that a proposal consists of (value, tracking integer). 
 
-this implies that a value is only chosen **when a single proposal with that value has been accepted by a majority of the acceptors**
+this implies that a value is only chosen **when a single proposal with that value has been accepted by a majority of the acceptors**.
+
+Because we allow multiple proposals to be chosen, we must guarantee that **all chosen proposals have the same value**.
+	- **Q:** why allow multiple proposals to be chosen?
+	- ie, for any tuple of (value, tracking integer), all `v in value` **must be the same** (value is a set of size 1)
+
+As we want to allow multiple proposals to be chosen, we must guarantee the following invariant: 
+
+> [!NOTE] Requirement
+> P2: If a proposal with value *v* is chosen, **all** higher numbered proposal that is chosen has value *v*
+
+This guarantees safety (so that all chosen proposals have same value). 
+
+To be chosen, a value has to be accepted. Hence, we can satisfy P2 by satisfying P2a: 
+
+
+> [!NOTE] Requirement
+> P2a: If a proposal with value *v* is chosen, then **all** higher numbered proposal accepted by **any** accepter has value *v*
+
+However, P2a could be violated under an async communication model together with P1. Consider the following: 
+1. Quorum size = 3 (a, b, c)
+2. a, b accept `(v = 1, n = 1)` 
+3. c does not receive anything
+4. proposer wakes and proposes `(v = 2, n = 2)`
+5. due to P1, c accepts `(v = 2, n = 2)`, violating P2a.
+6. c receives `(v = 1, n = 1)`
+
+To satisfy P1 and P2a, we must strenghten P2a to: 
+
+> [!NOTE] Requirement
+> P2b: If a proposal with value *v* is chosen, then every higher-numbered proposal issued by any proposer has value *v*.
