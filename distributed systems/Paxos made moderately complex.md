@@ -53,3 +53,6 @@
 1. There are no two different commands decided for the same slot
 2. All commands up to *slot.out* are in the set of decisions
 3. For all replicas *p*, *p.state* is the result of applying the commands in the set of decisions to the initial state for all slots up to *slot.out* in order of slot number. 
+
+**Q:** why can acceptors only adopt increasing ballot numbers?
+
