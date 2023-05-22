@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6efc6c556ec354b4",
+        "id": "84b5744e8d405cc9",
         "type": "tabs",
         "children": [
           {
-            "id": "4d0b2c2039625aa2",
+            "id": "b0a3ec461d490921",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -108,7 +108,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "4d0b2c2039625aa2",
+  "active": "b0a3ec461d490921",
   "lastOpenFiles": [
     "distributed systems/Paxos made \"simple\".md",
     "distributed systems/Paxos made moderately complex.md",
