@@ -14,8 +14,19 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "93bc272d935b247f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +119,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f319b5ef970b890e",
+  "active": "93bc272d935b247f",
   "lastOpenFiles": [
     "distributed systems/Paxos made \"simple\".md",
     "distributed systems/Paxos made moderately complex.md",
