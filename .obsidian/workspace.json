@@ -8,25 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f319b5ef970b890e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "93bc272d935b247f",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.3.5"
+                "file": "rust/lists.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "rust/lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +115,16 @@
   },
   "active": "93bc272d935b247f",
   "lastOpenFiles": [
+    "NestJS.md",
+    "rust/lists.md",
+    "rust/learning rust with too many",
+    "cidr.md",
+    "rust/tips and tricks.md",
+    "PHAS/Backend.md",
+    "compilers/crafting interpreters/evaluating expressions.md",
+    "compilers/crafting interpreters/scanning.md",
+    "compilers/crafting interpreters/representing code.md",
+    "compilers/crafting interpreters/parsing expressions.md",
     "distributed systems/Paxos made \"simple\".md",
     "distributed systems/Paxos made moderately complex.md",
     "Untitled.md",
@@ -130,11 +134,7 @@
     "templates/cornell notes system.md",
     "distributed systems/primary backup.md",
     "design docs/vapt brute force auth.md",
-    "PHAS/Backend.md",
     "compilers/Ghosts of departed proofs.md",
-    "NestJS.md",
-    "cidr.md",
-    "rust/tips and tricks.md",
     "vim/basics.md"
   ]
 }
