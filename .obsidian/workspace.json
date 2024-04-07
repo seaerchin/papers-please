@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode/3106.md",
+                "file": "leetcode/3107.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/3106.md",
+                "file": "leetcode/3107.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +117,7 @@
   "lastOpenFiles": [
     "leetcode/3105.md",
     "leetcode/3106.md",
+    "leetcode/3107.md",
     "leetcode",
     "rust/learning rust w too many LL/a bad stack.md",
     "rust/rust book/stack + heap.md",
