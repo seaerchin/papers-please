@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "68ae68d3ba176e36",
+        "id": "9f8cac6ef660a300",
         "type": "tabs",
         "children": [
           {
-            "id": "3c73c530cd0818f2",
+            "id": "c14a391a206ffd06",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "leetcode/3106.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.50271224975586,
-    "collapsed": true
+    "width": 247.50271224975586
   },
   "right": {
     "id": "790d725480195d0c",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "leetcode/3106.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,8 +113,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "3c73c530cd0818f2",
+  "active": "c14a391a206ffd06",
   "lastOpenFiles": [
+    "leetcode/3105.md",
+    "leetcode/3106.md",
+    "leetcode",
     "rust/learning rust w too many LL/a bad stack.md",
     "rust/rust book/stack + heap.md",
     "rust/rust book",
