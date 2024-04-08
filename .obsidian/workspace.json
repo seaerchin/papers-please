@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9f8cac6ef660a300",
+        "id": "a3beae96032ac52a",
         "type": "tabs",
         "children": [
           {
-            "id": "c14a391a206ffd06",
+            "id": "c36016953ddf7473",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode/3107.md",
+                "file": "refer/questions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/3107.md",
+                "file": "refer/questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,11 +113,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "c14a391a206ffd06",
+  "active": "c36016953ddf7473",
   "lastOpenFiles": [
+    "refer/questions.md",
+    "refer",
+    "Untitled.md",
+    "leetcode/3107.md",
     "leetcode/3106.md",
     "leetcode/3105.md",
-    "leetcode/3107.md",
     "leetcode",
     "rust/learning rust w too many LL/a bad stack.md",
     "rust/rust book/stack + heap.md",
@@ -142,9 +145,7 @@
     "compilers/crafting interpreters/scanning.md",
     "compilers/crafting interpreters/representing code.md",
     "compilers/crafting interpreters/parsing expressions.md",
-    "Untitled.md",
     "distributed systems/CockroachDB.md",
-    "distributed systems/primary backup.md",
-    "compilers/Ghosts of departed proofs.md"
+    "distributed systems/primary backup.md"
   ]
 }
