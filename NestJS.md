@@ -49,7 +49,6 @@ Rather than using the nestJS exposed decorators, we can instead use the general 
 
 Doing so makes the code platform dependent as underlying libs may have different APIs on the response object
 
-
 ## Providers 
 
 Providers can be injected as a dependency and nest will figure out the wiring at runtime. In other words, providers *provide* some capability to the wrapper. 
@@ -81,7 +80,7 @@ once we have a provider/consumer, we need to hand over the deps management to ne
 ```typescript
 @Module({
   controllers: [<list of controllers>], 
-  prpvoders: [<list of providers>]
+  providers: [<list of providers>]
 })
 
 export class AppModule {}
