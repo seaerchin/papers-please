@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a3beae96032ac52a",
+        "id": "874d0c24f6564383",
         "type": "tabs",
         "children": [
           {
-            "id": "c36016953ddf7473",
+            "id": "16d6afa1c8ec85f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "refer/codebase.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "refer/codebase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,10 +108,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "c36016953ddf7473",
+  "active": "16d6afa1c8ec85f5",
   "lastOpenFiles": [
-    "NestJS.md",
     "refer/codebase.md",
+    "NestJS.md",
     "refer",
     "Untitled.md",
     "leetcode/3107.md",
