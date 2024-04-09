@@ -55,7 +55,7 @@ codebase has no test - are we in growth phase? when is the right time to start? 
 - we `sendReferral` using an outbound job queue but we don't actually know if it's successful?
 	- we send dto eagerly -> ok because status is `processing` 
 	- if upstream dies, how do we know? on ur end we will still have the record in db withuot any sentinel 
-	- maybe we want to bind `createReferral` to success of `sendReferral`? or some notif idk 
+	- maybe we want to bind `createReferral` to success of `sendReferral`? or some notif idk
 
 `GET offerings`
 - skipping, standard list
