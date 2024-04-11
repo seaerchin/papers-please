@@ -4,6 +4,7 @@
 >  what can i offer in terms of this codebase **beyond** feature delivery 
 
 **QUESTION:** what differentiates a file in `/worker` from elsewhere? terminology-wise, i'd assume that a file here would run apart from the main app + is async (my mental model is a cf worker/background process)
+	**ANSWER:** files in `worker` only have a single call-site in `cron-jobs` - they are meant to be executed async (but will still eat main CPU monkas)
 
 `syncPbOfferings`
 - we gate `Promise.all` by `logger.info` 

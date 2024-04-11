@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ed0d6be9c3c92469",
+        "id": "360a66375577b232",
         "type": "tabs",
         "children": [
           {
-            "id": "97065058af1ad668",
+            "id": "d17b09120eebd807",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "books/SRE book/link.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "books/SRE book/link.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,23 +113,23 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "97065058af1ad668",
+  "active": "d17b09120eebd807",
   "lastOpenFiles": [
+    "refer/codebase/update-pb-offering.service.md",
+    "leetcode/3107.md",
+    "leetcode/3105.md",
     "refer/launch flow.md",
     "books/SRE book/link.md",
     "books/SRE book",
     "books/Untitled.md",
     "books",
     "refer/codebase/api-holding.controller.md",
-    "refer/codebase/update-pb-offering.service.md",
     "refer/codebase/Untitled",
     "refer/codebase",
     "NestJS.md",
     "refer",
     "Untitled.md",
-    "leetcode/3107.md",
     "leetcode/3106.md",
-    "leetcode/3105.md",
     "leetcode",
     "rust/learning rust w too many LL/a bad stack.md",
     "rust/rust book/stack + heap.md",
