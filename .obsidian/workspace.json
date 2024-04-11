@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "874d0c24f6564383",
+        "id": "ed0d6be9c3c92469",
         "type": "tabs",
         "children": [
           {
-            "id": "16d6afa1c8ec85f5",
+            "id": "97065058af1ad668",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "refer/launch flow.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "76ecd01c1ab6170e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "refer/launch flow.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -97,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "refer/launch flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,11 +108,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "16d6afa1c8ec85f5",
+  "active": "97065058af1ad668",
   "lastOpenFiles": [
+    "refer/launch flow.md",
+    "books/SRE book/link.md",
+    "books/SRE book",
+    "books/Untitled.md",
+    "books",
     "refer/codebase/api-holding.controller.md",
     "refer/codebase/update-pb-offering.service.md",
-    "refer/launch flow.md",
     "refer/codebase/Untitled",
     "refer/codebase",
     "NestJS.md",
@@ -158,8 +145,6 @@
     "rust/tips and tricks.md",
     "PHAS/Backend.md",
     "compilers/crafting interpreters/evaluating expressions.md",
-    "compilers/crafting interpreters/scanning.md",
-    "compilers/crafting interpreters/representing code.md",
-    "compilers/crafting interpreters/parsing expressions.md"
+    "compilers/crafting interpreters/scanning.md"
   ]
 }
