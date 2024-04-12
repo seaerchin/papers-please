@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/SRE book/link.md",
+                "file": "infra/Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/SRE book/link.md",
+                "file": "infra/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,15 +115,17 @@
   },
   "active": "d17b09120eebd807",
   "lastOpenFiles": [
+    "refer/codebase/api-holding.controller.md",
+    "infra/Docker.md",
+    "infra",
+    "books/SRE book/link.md",
     "refer/codebase/update-pb-offering.service.md",
     "leetcode/3107.md",
     "leetcode/3105.md",
     "refer/launch flow.md",
-    "books/SRE book/link.md",
     "books/SRE book",
     "books/Untitled.md",
     "books",
-    "refer/codebase/api-holding.controller.md",
     "refer/codebase/Untitled",
     "refer/codebase",
     "NestJS.md",
@@ -149,7 +151,6 @@
     "rust/learning rust with too many",
     "rust/tips and tricks.md",
     "PHAS/Backend.md",
-    "compilers/crafting interpreters/evaluating expressions.md",
-    "compilers/crafting interpreters/scanning.md"
+    "compilers/crafting interpreters/evaluating expressions.md"
   ]
 }
