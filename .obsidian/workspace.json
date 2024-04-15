@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "360a66375577b232",
+        "id": "68bfd9e065e85eb5",
         "type": "tabs",
         "children": [
           {
-            "id": "d17b09120eebd807",
+            "id": "47600407e049caba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "infra/Docker.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "infra/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,10 +108,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d17b09120eebd807",
+  "active": "47600407e049caba",
   "lastOpenFiles": [
-    "refer/codebase/api-holding.controller.md",
     "infra/Docker.md",
+    "refer/codebase/api-holding.controller.md",
     "infra",
     "books/SRE book/link.md",
     "refer/codebase/update-pb-offering.service.md",
