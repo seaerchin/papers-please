@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "68bfd9e065e85eb5",
+        "id": "14a6ab2a1f27c9b5",
         "type": "tabs",
         "children": [
           {
-            "id": "47600407e049caba",
+            "id": "14d0b5e31ef89e1e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "distributed systems/Paxos made moderately complex.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "distributed systems/Paxos made moderately complex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,8 +108,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "47600407e049caba",
+  "active": "14d0b5e31ef89e1e",
   "lastOpenFiles": [
+    "distributed systems/Paxos made moderately complex.md",
     "distributed systems/Paxos made \"simple\".md",
     "distributed systems/CockroachDB.md",
     "distributed systems/CAP and feasibility of CAP web services.md",
@@ -147,7 +143,6 @@
     "AWS/cidr.md",
     "vim/basics.md",
     "AWS/general.md",
-    "distributed systems/Paxos made moderately complex.md",
     "design docs/vapt brute force auth.md",
     "rust/Untitled.canvas",
     "templates/cornell notes system.md",
