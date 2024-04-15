@@ -11,8 +11,12 @@
             "id": "47600407e049caba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "isomer/incidents.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "isomer/incidents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +115,8 @@
   },
   "active": "47600407e049caba",
   "lastOpenFiles": [
+    "isomer/incidents.md",
+    "isomer",
     "infra/Docker.md",
     "refer/codebase/api-holding.controller.md",
     "infra",
@@ -143,9 +150,7 @@
     "distributed systems/CAP 12 years later.md",
     "rust/Untitled.canvas",
     "templates/cornell notes system.md",
-    "rust/learning rust with too many",
     "rust/tips and tricks.md",
-    "PHAS/Backend.md",
-    "compilers/crafting interpreters/evaluating expressions.md"
+    "PHAS/Backend.md"
   ]
 }
