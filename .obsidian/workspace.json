@@ -11,8 +11,12 @@
             "id": "14d0b5e31ef89e1e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "leetcode/623.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "leetcode/623.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +115,8 @@
   },
   "active": "14d0b5e31ef89e1e",
   "lastOpenFiles": [
+    "leetcode/3105.md",
+    "leetcode/623.md",
     "distributed systems/Paxos made moderately complex.md",
     "distributed systems/Paxos made \"simple\".md",
     "distributed systems/CockroachDB.md",
@@ -123,7 +130,6 @@
     "books/SRE book/link.md",
     "refer/codebase/update-pb-offering.service.md",
     "leetcode/3107.md",
-    "leetcode/3105.md",
     "refer/launch flow.md",
     "books/SRE book",
     "books/Untitled.md",
@@ -145,7 +151,6 @@
     "AWS/general.md",
     "design docs/vapt brute force auth.md",
     "rust/Untitled.canvas",
-    "templates/cornell notes system.md",
-    "rust/tips and tricks.md"
+    "templates/cornell notes system.md"
   ]
 }
