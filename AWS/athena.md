@@ -1,0 +1,3 @@
+- interactive query service acting on s3 
+	- data in s3 -> athena provides a query engine for said data 
+	- 
