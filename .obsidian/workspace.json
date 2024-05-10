@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NestJS.md",
+                "file": "books/Understanding message brokers/Messaging considerations and patterns.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NestJS.md",
+                "file": "books/Understanding message brokers/Messaging considerations and patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,6 +115,10 @@
   },
   "active": "14d0b5e31ef89e1e",
   "lastOpenFiles": [
+    "NestJS.md",
+    "books/Understanding message brokers/Messaging considerations and patterns.md",
+    "books/Understanding message brokers",
+    "books/Understanding message brokers.md",
     "leetcode/310.md",
     "leetcode/3105.md",
     "leetcode/623.md",
@@ -135,11 +139,9 @@
     "leetcode/3107.md",
     "refer/launch flow.md",
     "books/SRE book",
-    "books/Untitled.md",
     "books",
     "refer/codebase/Untitled",
     "refer/codebase",
-    "NestJS.md",
     "refer",
     "Untitled.md",
     "leetcode/3106.md",
@@ -147,10 +149,8 @@
     "rust/learning rust w too many LL/a bad stack.md",
     "rust/rust book/stack + heap.md",
     "rust/rust book",
-    "rust/learning rust w too many LL",
     "AWS/networking.md",
     "AWS/cidr.md",
-    "vim/basics.md",
     "rust/Untitled.canvas"
   ]
 }
