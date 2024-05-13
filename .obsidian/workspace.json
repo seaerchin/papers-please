@@ -115,6 +115,9 @@
   },
   "active": "2faa98265090477c",
   "lastOpenFiles": [
+    "leetcode/135/135.md",
+    "leetcode/135",
+    "leetcode/135.",
     "leetcode/623/623.md",
     "leetcode/623",
     "leetcode/3107/3107.md",
@@ -130,10 +133,8 @@
     "3105/leetcode/3105",
     "3105/leetcode",
     "3105/3105.md",
-    "3105",
     "leetcode/310/310.md",
     "leetcode/\"310/310.md",
-    "leetcode/\"310/310",
     "AWS/s3.md",
     "AWS/general.md",
     "AWS/ddb.md",
@@ -152,7 +153,6 @@
     "infra/Docker.md",
     "AWS/aws aurora.md",
     "distributed systems/Paxos made moderately complex.md",
-    "distributed systems/Paxos made \"simple\".md",
     "rust/Untitled.canvas"
   ]
 }
