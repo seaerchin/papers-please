@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/s3.md",
+                "file": "AWS/ddb.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,13 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 247.50271224975586,
-    "collapsed": true
+    "width": 247.50271224975586
   },
   "right": {
     "id": "790d725480195d0c",
@@ -87,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/s3.md",
+                "file": "AWS/ddb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +115,7 @@
   },
   "active": "2faa98265090477c",
   "lastOpenFiles": [
+    "AWS/ddb.md",
     "AWS/s3.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
