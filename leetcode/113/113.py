@@ -9,10 +9,9 @@
 def walk(target, cur, root):
     if not root and target == cur: 
         return [[]] 
-    cur_cost = root.val 
-    if cur_cost > target:
-        return [] 
-    
+    if not root: 
+        return []
+   
     left_paths = walk(target - root.val, root.left)
     right_paths = walk(target - root.val, root.right)
     
