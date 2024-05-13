@@ -24,6 +24,7 @@ tags: []
 	- partition + sort keys: partition key same as above, sort key is within partition 
 
 # data streams 
+
 - ddb optional feature that does cdc whenever something is edited on the table 
 	- new item add 
 	- item update

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/ddb.md",
+                "file": "AWS/general.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.50271224975586
+    "width": 247.50271224975586,
+    "collapsed": true
   },
   "right": {
     "id": "790d725480195d0c",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/ddb.md",
+                "file": "AWS/general.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +118,13 @@
   "lastOpenFiles": [
     "AWS/ddb.md",
     "AWS/s3.md",
+    "AWS/general.md",
+    "AWS/networking.md",
+    "AWS/athena.md",
+    "leetcode/113/113.py",
+    "leetcode/113/113.md",
+    "leetcode/113",
+    "leetcode/113.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "books/Understanding message brokers/Messaging considerations and patterns.md",
@@ -128,7 +136,6 @@
     "leetcode/3105.md",
     "leetcode/623.md",
     "infra/Docker.md",
-    "AWS/athena.md",
     "AWS/aws aurora.md",
     "distributed systems/Paxos made moderately complex.md",
     "distributed systems/Paxos made \"simple\".md",
@@ -147,12 +154,6 @@
     "books",
     "refer/codebase/Untitled",
     "refer/codebase",
-    "refer",
-    "Untitled.md",
-    "leetcode/3106.md",
-    "leetcode",
-    "rust/learning rust w too many LL/a bad stack.md",
-    "rust/rust book/stack + heap.md",
     "rust/Untitled.canvas"
   ]
 }
