@@ -5,20 +5,22 @@
 #         self.left = left
 #         self.right = right
 
-def walk(target, root):
-    if not root: 
-        return [] 
+# returns a list<list<int>>
+def walk(target, cur, root):
+    if not root and target == cur: 
+        return [[]] 
     cur_cost = root.val 
-    cur_path = []
     if cur_cost > target:
         return [] 
-    left_paths = walk(root.left)
-    right_paths = walk(root.right)
+    
+    left_paths = walk(target - root.val, root.left)
+    right_paths = walk(target - root.val, root.right)
+    
     # need to map to each path returned
-    if left_paths:
-        cur_path.map(lambda x: x.append(left_paths))
-    if right_paths: 
-        cur_path.map(lambda x: x.append(left_paths))
+    if len(left_paths) > 0:
+        cur_path.map(lambda x: x + [root.val])
+    if len(right_paths) > 0:
+        cur_path.map(lambda x: x + [root.val])
     return cur_path
 
 class Solution:
