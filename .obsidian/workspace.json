@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d5c5ac3f0de0898e",
+        "id": "7bbe12b7412e61aa",
         "type": "tabs",
         "children": [
           {
-            "id": "cda18daf0391b48a",
+            "id": "3453927b94ad2934",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -108,8 +108,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "cda18daf0391b48a",
+  "active": "3453927b94ad2934",
   "lastOpenFiles": [
+    "databases/data modelling.md",
+    "databases/1715833900-INDM.md",
     "distributed systems/Paxos made \"simple\".md",
     "AWS/general.md",
     "leetcode/135/135.md",
@@ -146,8 +148,6 @@
     "leetcode/310.md",
     "leetcode/3105.md",
     "leetcode/623.md",
-    "infra/Docker.md",
-    "AWS/aws aurora.md",
     "rust/Untitled.canvas"
   ]
 }
