@@ -45,11 +45,18 @@ tags:
 ### Delete
 - if i delete a node w children, the child might not know? (since no FK out to another table, we cannot cascade delete)
 
-/> [!NOTE] Summary 
+> [!NOTE] Summary 
 > Easy to reason about and moves are relatively cheap 
 > However, queries wrt sub-trees are difficult to perform -> this is best suited for a read heavy pattern 
 > where the reads are done level by level and sub-tree reads are relatively rare.
 > Referential integrity because you can ask the db to enforce that parent_ids must exist in id
+
+### extensions 
+- we could use recursive common table exprs (supported in pq) to get descendants/ancestors in single query 
+- could also point to different tables for the type of the node; this models inheritance (see [here](https://leonardqmarcq.com/posts/modeling-hierarchical-tree-data), under modelling subtype-specific attributes)
+
+### consideration
+- how is consistency involved here? specifically, path consistency -> we need to lock so that writes to the path of the same sub-tree don't wonk
 
 ## Nested sets 
 
@@ -86,3 +93,13 @@ tags:
 > This structure seems optimised towards a very read-heavy workload, where the most common query pattern involves fetching the nodes up to some depth 
 > Not good if the structure of the graph is likely to change often 
 
+# References 
+1. [Baeldung](https://www.baeldung.com/cs/storing-tree-in-rdb) 
+2. leonardqmarcq's [modeling hierarchical tree data in pg](https://leonardqmarcq.com/posts/modeling-hierarchical-tree-data)
+3. 
+
+
+
+
+# Permissions 
+(node_id, user_id, permissions_id) (uniq constraint) 
