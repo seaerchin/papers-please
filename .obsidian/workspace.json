@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "43d3da1114902c33",
+        "id": "d5c5ac3f0de0898e",
         "type": "tabs",
         "children": [
           {
-            "id": "2faa98265090477c",
+            "id": "cda18daf0391b48a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS/general.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/general.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,8 +108,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "2faa98265090477c",
+  "active": "cda18daf0391b48a",
   "lastOpenFiles": [
+    "distributed systems/Paxos made \"simple\".md",
+    "AWS/general.md",
     "leetcode/135/135.md",
     "leetcode/135",
     "leetcode/135.",
@@ -136,7 +133,6 @@
     "leetcode/310/310.md",
     "leetcode/\"310/310.md",
     "AWS/s3.md",
-    "AWS/general.md",
     "AWS/ddb.md",
     "AWS/networking.md",
     "AWS/athena.md",
@@ -152,7 +148,6 @@
     "leetcode/623.md",
     "infra/Docker.md",
     "AWS/aws aurora.md",
-    "distributed systems/Paxos made moderately complex.md",
     "rust/Untitled.canvas"
   ]
 }
