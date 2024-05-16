@@ -18,6 +18,7 @@ tags:
 > [!NOTE] Referential Integrity 
 > Database cannot preserve referential integrity here (ie, that all nodes in your path exist) 
 > Our application has to take over this logic and sure that all moves use a write-lock 
+> 
 > Consider: if we have `A -> B -> C` and we shift to `A -> C -> B` whilst a rename `C rename to D` is underway
 > Outcome: can be `A -> C -> B` (move wins) or `A -> B -> D` if rename wins
 
@@ -47,8 +48,9 @@ tags:
 
 > [!NOTE] Summary 
 > Easy to reason about and moves are relatively cheap 
-> However, queries wrt sub-trees are difficult to perform -> this is best suited for a read heavy pattern 
-> where the reads are done level by level and sub-tree reads are relatively rare.
+> 
+> However, queries wrt sub-trees are difficult to perform -> this is best suited for a read heavy pattern where the reads are done level by level and sub-tree reads are relatively rare.
+> 
 > Referential integrity because you can ask the db to enforce that parent_ids must exist in id
 
 ### extensions 
@@ -65,9 +67,11 @@ tags:
 - graph is stored in a separate table 
 
 **closure table storing structure of the graph** 
+
 | node_id | parent_id | depth |
-| ------------- | -------------- | -------------- |
-| 2 | 3 | 4 |
+| ------- | --------- | ----- |
+| 2       | 3         | 4     |
+|         |           |       |
 
 - if i were to insert a node into the data table, i would also need to update the closure table
   - no update = orphaned node -> wrong
@@ -89,17 +93,10 @@ tags:
 - leaf easy 
 - deletion of non-leaf nodes bad 
 
-/> [!NOTE] Summary 
+> [!NOTE] Summary 
 > This structure seems optimised towards a very read-heavy workload, where the most common query pattern involves fetching the nodes up to some depth 
 > Not good if the structure of the graph is likely to change often 
 
 # References 
 1. [Baeldung](https://www.baeldung.com/cs/storing-tree-in-rdb) 
 2. leonardqmarcq's [modeling hierarchical tree data in pg](https://leonardqmarcq.com/posts/modeling-hierarchical-tree-data)
-3. 
-
-
-
-
-# Permissions 
-(node_id, user_id, permissions_id) (uniq constraint) 
