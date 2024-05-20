@@ -61,6 +61,15 @@ tags:
 - how is consistency involved here? specifically, path consistency -> we need to lock so that writes to the path of the same sub-tree don't wonk
 
 ## Nested sets 
+- dfs through the tree 
+- each node will be visited twice and the count at each visit is (left, right)
+
+### Create 
+- inserting at any point inside the tree means i have to update the sets that it's a part of
+- eg: initial tree is [1, 3], consisting of [1, 2] and [2,3]. 
+  - if i want to insert a child at [1, 2]: 
+  - i need to update [1, 2] -> [1, 3] + [1, 3] -> [1, 4] and [2, 3] -> [3, 4]
+  - then i insert [1, 2]
 
 ## Closure tables
 - store graph separately from data 
