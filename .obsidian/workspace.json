@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024/May/16.md",
+                "file": "AWS/s3.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024/May/16.md",
+                "file": "AWS/s3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,6 +115,7 @@
   },
   "active": "889458f415b97df9",
   "lastOpenFiles": [
+    "daily/2024/May/16.md",
     "daily/2024/May/20.md",
     "daily/2024/May/17.md",
     "databases/data modelling.md",
@@ -152,7 +153,6 @@
     "books/Understanding message brokers/Messaging considerations and patterns.md",
     "NestJS.md",
     "books/Understanding message brokers.md",
-    "leetcode/310.md",
     "rust/Untitled.canvas"
   ]
 }
