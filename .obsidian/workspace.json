@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b855d8f8114d56f6",
+        "id": "f2079e91eeac9ede",
         "type": "tabs",
         "children": [
           {
-            "id": "811e453d3da0b715",
+            "id": "1490889ad062817c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily/2024/July/11.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024/July/11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,8 +108,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "811e453d3da0b715",
+  "active": "1490889ad062817c",
   "lastOpenFiles": [
+    "daily/2024/July/11.md",
     "daily/2024/July/12.md~",
     "daily/2024/July/12.md",
     "daily/2024/July/11.md~",
@@ -142,7 +138,6 @@
     "leetcode/3105",
     "leetcode/3105.",
     "3105/leetcode/3105/3105.md",
-    "3105/leetcode/3105",
     "3105/3105.md",
     "leetcode/310/310.md",
     "leetcode/\"310/310.md",
