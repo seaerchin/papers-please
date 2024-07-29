@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f2079e91eeac9ede",
+        "id": "73a48dfe455533f8",
         "type": "tabs",
         "children": [
           {
-            "id": "1490889ad062817c",
+            "id": "d6bc0b28883cfc66",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "AWS/ddb.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "AWS/ddb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,8 +113,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1490889ad062817c",
+  "active": "d6bc0b28883cfc66",
   "lastOpenFiles": [
+    "AWS/athena.md",
+    "AWS/ddb.md",
     "daily/2024/July/11.md",
     "daily/2024/July/12.md~",
     "daily/2024/July/12.md",
@@ -141,9 +148,7 @@
     "3105/3105.md",
     "leetcode/310/310.md",
     "leetcode/\"310/310.md",
-    "AWS/ddb.md",
     "AWS/networking.md",
-    "AWS/athena.md",
     "leetcode/113/113.md",
     "leetcode/113.md",
     "Untitled 1.canvas",
