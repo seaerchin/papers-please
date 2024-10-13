@@ -1,25 +1,21 @@
-from collections import Counter
-
-# maintain a heap of the smallest items, together with those that have not been processed
-# at every iteration, shift an element over and update accordingly
-
-
 class Solution:
     def combinationSum2(self, candidates: list[int], target: int) -> list[list[int]]:
-        res = set[list[int]]()
+        res: list[list[int]] = []
 
-        # smallest will be the current item
-        # counter will hold the list of item
+        candidates.sort()
+        # candidates has to be sorted prior to going in
 
-        def solve(counter: Counter[int], cur: list[int], target: int) -> None:
+        def solve(candidates: list[int], target: int, cur: list[int]):
             if target == 0:
-                res.add(cur)
+                res.append(cur)
+            if target < 0:
+                return
 
-            acceptable = filter(lambda x: x <= target, set(counter))
+            for idx, num in enumerate(candidates):
+                solve(candidates[idx + 1:], target - num, cur + [num])
 
-            for i in acceptable:
-                inner = counter
-                inner[i] -= 1
-                solve(inner, cur + [i], target - i)
+            return
 
-        return list(res)
+        solve(candidates, target, [])
+
+        return res
