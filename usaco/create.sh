@@ -5,3 +5,4 @@ sed -i '' "s/<FILE>/$1/" "$1.py"
 
 touch "$1.in"
 touch "$1.out"
+touch "$1.debug"
