@@ -26,11 +26,11 @@ def input_int():
 def read():
     [n_cows, n_aircons] = input_int()
     cows = []
-    ac=[]
-    for _ in range(n_cows): 
+    ac = []
+    for _ in range(n_cows):
         cows.append(input_int())
 
-    for _ in range(n_aircons): 
+    for _ in range(n_aircons):
         ac.append(input_int())
 
     print(cows)
@@ -38,17 +38,19 @@ def read():
     return [cows, ac]
 
 
+ac = []
+
 
 def solve():
-    cows, ac = read()
-    stalls= [0 for i in range(101)]
-    for [start, end, v] in (cows):
-        for i in range(start, end+1):
+    cows, _ac = read()
+    stalls = [0 for i in range(101)]
+    global ac
+    for [start, end, v] in cows:
+        for i in range(start, end + 1):
             stalls[i] += v
 
-    try_stall(ac, stalls, 0)
-
-
+    ac = _ac
+    try_stall([], stalls, 0)
 
     # arr = cows
     # for i in aircons:
@@ -60,29 +62,38 @@ def solve():
     return
 
 
-def update_cows(stall, cows):
-    [start, end, cooling, _] = stall
+def update_cows(ac, cows):
+    [start, end, cooling, _] = ac
     new_cows = cows[:]
-    for i in range(start, end+1):
+    for i in range(start, end + 1):
         new_cows[i] -= cooling
 
     return new_cows
 
 
-cost = 9*110000000000000000000000000000000000000000
+cost = 9 * 110000000000000000000000000000000000000000
 
-def try_stall(ac, stalls, cur):
-    if all(list(map(lambda x: x<=0, stalls))): 
+
+# ac chosen, state of stall, current index in global ac set
+def try_stall(cur_acs, stalls, cur):
+    if all(list(map(lambda x: x <= 0, stalls))):
         global cost
-        cost = min(cur, cost)
+        ac_cost = sum(map(lambda x: x[3], cur_acs))
+        cost = min(ac_cost, cost)
+        return
 
-    for idx, stall in enumerate(ac):
-        next_stalls=ac[:idx]+ac[idx+1:]
-        # update cows here
-        updated_cows = update_cows(stall,stalls)
-        try_stall(next_stalls, updated_cows, cur+stall[3])
-    
+    global ac
+
+    if cur == len(ac):
+        return
+
+    cur_ac = ac[cur]
+    cur_acs.append(cur_ac)
+    new_stalls = update_cows(cur_ac, stalls)
+    try_stall(cur_acs, new_stalls, cur + 1)
+    cur_acs.pop()
+    try_stall(cur_acs, stalls, cur + 1)
+
 
 solve()
 write(str(cost))
-

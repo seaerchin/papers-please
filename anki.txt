@@ -1,0 +1,44 @@
+Front: <div style="background-color: #1a1a2e; color: #00d4ff; padding: 20px; font-family: sans-serif;"><h2>What are the three key choices that make animations feel more natural?</h2></div>
+Back: <div style="background-color: #1a1a2e; color: #e94560; padding: 20px; font-family: sans-serif;"><ul><li><strong>Easing</strong> - the acceleration curve of the animation</li><li><strong>Duration</strong> - how long the animation takes</li><li><strong>Properties</strong> - which CSS properties are being animated</li></ul></div>
+
+Front: <div style="background-color: #1a1a2e; color: #00d4ff; padding: 20px; font-family: sans-serif;"><h2>What is a common mistake beginners make with animations?</h2></div>
+Back: <div style="background-color: #1a1a2e; color: #e94560; padding: 20px; font-family: sans-serif;"><p>Animating too much in an attempt to "delight" the user.</p><p>Users typically have a specific goal and don't expect to be delighted—they just want to achieve their goal. Excessive animations can make the experience worse instead of better.</p></div>
+
+Front: <div style="background-color: #1a1a2e; color: #00d4ff; padding: 20px; font-family: sans-serif;"><h2>How do you know when an animation "feels right"?</h2></div>
+Back: <div style="background-color: #1a1a2e; color: #e94560; padding: 20px; font-family: sans-serif;"><p>An animation feels right when:</p><ul><li>Neither you nor the user is surprised or annoyed by its existence</li><li>It's obvious why it exists</li></ul></div>
+
+Front: <div style="background-color: #1a1a2e; color: #00d4ff; padding: 20px; font-family: sans-serif;"><h2>Which CSS properties should you prefer to animate for best performance?</h2></div>
+Back: <div style="background-color: #1a1a2e; color: #e94560; padding: 20px; font-family: sans-serif;"><p><strong>transform</strong> and <strong>opacity</strong></p><p>These only trigger the composite step (the third rendering step).</p><p>Avoid animating <code>padding</code> or <code>margin</code> as they trigger all three steps: layout, paint, and composite.</p></div>
+
+Front: <div style="background-color: #1a1a2e; color: #00d4ff; padding: 20px; font-family: sans-serif;"><h2>What are the three browser rendering steps, and which do transform/opacity trigger?</h2></div>
+Back: <div style="background-color: #1a1a2e; color: #e94560; padding: 20px; font-family: sans-serif;"><p>The three rendering steps:</p><ol><li><strong>Layout</strong></li><li><strong>Paint</strong></li><li><strong>Composite</strong></li></ol><p><code>transform</code> and <code>opacity</code> only trigger <strong>composite</strong> (step 3), making them the most performant properties to animate.</p></div>
+
+Front: <div style="background-color: #1a1a2e; color: #00d4ff; padding: 20px; font-family: sans-serif;"><h2>What should you use for animations when the main thread is busy?</h2></div>
+Back: <div style="background-color: #1a1a2e; color: #e94560; padding: 20px; font-family: sans-serif;"><p>Use <strong>hardware-accelerated animations</strong> like:</p><ul><li>CSS animations/transitions</li><li>WAAPI (Web Animation API)</li></ul><p>These run on the GPU/compositor thread, not blocked by the busy main thread.</p></div>
+
+Front: <div style="background-color: #1a1a2e; color: #00d4ff; padding: 20px; font-family: sans-serif;"><h2>What is interruptibility in animations and why does it matter?</h2></div>
+Back: <div style="background-color: #1a1a2e; color: #e94560; padding: 20px; font-family: sans-serif;"><p><strong>Interruptibility</strong> allows the user to change the state of an animation at any time while maintaining a smooth transition.</p><p>It makes animations feel more <strong>natural and responsive</strong> because users aren't forced to wait for animations to complete before interacting again.</p></div>
+
+Front: <div style="background-color: #1a1a2e; color: #00d4ff; padding: 20px; font-family: sans-serif;"><h2>Why are CSS transitions better than keyframe animations for interruptibility?</h2></div>
+Back: <div style="background-color: #1a1a2e; color: #e94560; padding: 20px; font-family: sans-serif;"><p>CSS transitions can be <strong>interrupted and smoothly transition to a new value</strong>, even before the first transition has finished.</p><p>Keyframe animations don't handle interruption as gracefully—they typically restart or jump when interrupted.</p></div>
+
+Front: <div style="background-color: #1a1a2e; color: #00d4ff; padding: 20px; font-family: sans-serif;"><h2>Why must animations account for users who don't want them?</h2></div>
+Back: <div style="background-color: #1a1a2e; color: #e94560; padding: 20px; font-family: sans-serif;"><p>To prevent degrading the user experience. Some users:</p><ul><li>Have vestibular disorders or motion sensitivity</li><li>Find animations distracting</li><li>Prefer reduced motion for accessibility</li></ul><p>Use <code>prefers-reduced-motion</code> media query to respect user preferences.</p></div>
+
+Front: <div style="background-color: #1a1a2e; color: #00d4ff; padding: 20px; font-family: sans-serif;"><h2>When should you use ease-out easing?</h2></div>
+Back: <div style="background-color: #1a1a2e; color: #e94560; padding: 20px; font-family: sans-serif;"><p><strong>ease-out</strong> is ideal for <strong>user-initiated interactions</strong> like:</p><ul><li>Opening a dropdown</li><li>Opening a modal</li><li>Enter and exit animations</li></ul><p>The acceleration at the beginning gives users a feeling of <strong>responsiveness</strong>.</p></div>
+
+Front: <div style="background-color: #1a1a2e; color: #00d4ff; padding: 20px; font-family: sans-serif;"><h2>What is a simple trick to make buttons feel more responsive?</h2></div>
+Back: <div style="background-color: #1a1a2e; color: #e94560; padding: 20px; font-family: sans-serif;"><p>Add a subtle <strong>scale down effect</strong> on button press:</p><ul><li>Use <code>:active</code> pseudo-class</li><li>Apply <code>transform: scale(0.97)</code></li><li>Use a <strong>150ms</strong> transition with <strong>ease-out</strong></li></ul><p>This gives immediate visual feedback that the button was pressed.</p></div>
+
+Front: <div style="background-color: #1a1a2e; color: #00d4ff; padding: 20px; font-family: sans-serif;"><h2>When should you use ease-in-out easing?</h2></div>
+Back: <div style="background-color: #1a1a2e; color: #e94560; padding: 20px; font-family: sans-serif;"><p>Use <strong>ease-in-out</strong> for elements that are <strong>already on screen</strong> and need to:</p><ul><li>Move to a new position</li><li>Morph into a new shape</li></ul><p>Example: timeline components where elements stay visible but change in some way.</p><p>It feels natural because the animation accelerates and decelerates smoothly.</p></div>
+
+Front: <div style="background-color: #1a1a2e; color: #00d4ff; padding: 20px; font-family: sans-serif;"><h2>Why should you avoid ease-in for UI animations?</h2></div>
+Back: <div style="background-color: #1a1a2e; color: #e94560; padding: 20px; font-family: sans-serif;"><p><strong>ease-in</strong> is not suited for UI animations because:</p><ul><li>It accelerates at the <strong>end</strong>, which is the opposite of what we want</li><li>It feels unnatural—our brain expects things to <strong>settle</strong> at the end of a movement, not speed up</li></ul><p>Use <strong>ease-out</strong> or <strong>ease-in-out</strong> instead.</p></div>
+
+Front: <div style="background-color: #1a1a2e; color: #00d4ff; padding: 20px; font-family: sans-serif;"><h2>When should you use linear easing?</h2></div>
+Back: <div style="background-color: #1a1a2e; color: #e94560; padding: 20px; font-family: sans-serif;"><p>Use <strong>linear</strong> only for:</p><ul><li><strong>Constant animations</strong> like a marquee</li><li><strong>Visualizing the passage of time</strong>, such as a "hold to delete" interaction</li></ul><p>Linear makes sense when you need to show the user how much time is left, because time passes linearly.</p></div>
+
+Front: <div style="background-color: #1a1a2e; color: #00d4ff; padding: 20px; font-family: sans-serif;"><h2>What is the difference between ease and ease-in-out, and when should you use ease?</h2></div>
+Back: <div style="background-color: #1a1a2e; color: #e94560; padding: 20px; font-family: sans-serif;"><p><strong>ease</strong> is similar to ease-in-out but <strong>asymmetrical</strong>:</p><ul><li>Starts <strong>faster</strong></li><li>Ends <strong>slower</strong></li></ul><p>Best for <strong>hover effects</strong> that transition:</p><ul><li>color</li><li>background-color</li><li>opacity</li></ul></div>
