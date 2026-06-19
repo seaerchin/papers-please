@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
+    "clsx": "^2.1.1",
+    "motion": "^12.34.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-use-measure": "^2.1.7",
     "tailwindcss": "^4.1.18",
     "vaul": "^1.1.2"
   },
