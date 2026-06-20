@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rust/ratatui/Untitled.md",
+                "file": "rust/Traits.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Traits"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.50271224975586,
-    "collapsed": true
+    "width": 247.50271224975586
   },
   "right": {
     "id": "790d725480195d0c",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust/ratatui/Untitled.md",
+                "file": "rust/Traits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for Traits"
             }
           }
         ]
@@ -129,9 +128,14 @@
   },
   "active": "3686694b14a97ee7",
   "lastOpenFiles": [
+    "rust/tips and tricks.md",
+    "rust/Traits.md",
+    "rust/rust book/stack + heap.md",
+    "rust/ratatui/How it works.md",
+    "Untitled 3.base",
+    "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.base",
-    "rust/ratatui/Untitled.md",
     "isomer/incidents.md",
     "rust/ratatui",
     "Untitled",
@@ -155,16 +159,11 @@
     "leetcode/135",
     "leetcode/135.",
     "leetcode/623/623.md",
-    "leetcode/623",
     "leetcode/3107/3107.md",
-    "leetcode/3107",
     "leetcode/3106/3106.md",
-    "leetcode/3106/3106md",
     "leetcode/3106.md",
     "leetcode/3105/3105.md",
     "3105/leetcode/3105/3105.md",
-    "3105/3105.md",
-    "leetcode/310/310.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "rust/Untitled.canvas"
