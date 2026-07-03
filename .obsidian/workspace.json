@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "938c399a0b77c613",
+        "id": "fd0402989c2f61b6",
         "type": "tabs",
         "children": [
           {
-            "id": "3686694b14a97ee7",
+            "id": "71aff1d7fb66b0ed",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rust/Traits.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Traits"
+              "title": "New tab"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust/Traits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Traits"
+              "title": "Backlinks"
             }
           }
         ]
@@ -126,10 +121,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3686694b14a97ee7",
+  "active": "71aff1d7fb66b0ed",
   "lastOpenFiles": [
-    "rust/tips and tricks.md",
     "rust/Traits.md",
+    "rust/tips and tricks.md",
     "rust/rust book/stack + heap.md",
     "rust/ratatui/How it works.md",
     "Untitled 3.base",
