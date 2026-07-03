@@ -1,0 +1,2 @@
+- you need a verifiable end result -> something that the model can check against and get a Y/N answer
+- don't let the model parse text to achieve an end goal but ask it for the way to achieve that end goal
