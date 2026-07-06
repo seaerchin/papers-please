@@ -19,3 +19,4 @@
 # event based messaging
 - use event rule 
 - can also adjust frequency of messaging based around certain rules 
+- only 1 event rule can be added sadly

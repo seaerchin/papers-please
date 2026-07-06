@@ -1,3 +1,8 @@
+---
+id: CAP 12 years later
+aliases: []
+tags: []
+---
 # why 2 out of 3 is misleading
 
 - partitioning is not guaranteed -> partitions rarely happens and when they are **not** present in the system, there is little incentive to forfeit either C || A 

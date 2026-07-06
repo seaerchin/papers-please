@@ -6,7 +6,6 @@ tags:
   - databases
   - database
 ---
-
 # Storing trees in db 
 4 common techniques 
 
