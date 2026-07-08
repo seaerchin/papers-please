@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "vitest"
             }
+          },
+          {
+            "id": "c5a6d80f30c1c443",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pgboss.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "pgboss"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,10 +161,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8718e9fa115e7bc2",
+  "active": "c5a6d80f30c1c443",
   "lastOpenFiles": [
-    "distributed systems/CockroachDB.md",
     "vitest.md",
+    "pgboss.md",
+    "distributed systems/CockroachDB.md",
     "AWS/cidr.md~",
     "databases/data modelling.md",
     "databases/orm.md",
@@ -172,7 +198,6 @@
     "daily/2024/May/20.md",
     "daily/2024/May/17.md",
     "databases/1715833900-INDM.md",
-    "distributed systems/Paxos made \"simple\".md",
     "leetcode/135",
     "Untitled 1.canvas",
     "Untitled.canvas",
