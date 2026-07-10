@@ -10,19 +10,16 @@ tags: []
 
 # dom simulation
 - might have short-comings because real browser engines might not match up w/ the simulation
-
 # browser compat
 - vitest uses `Vite dev server` to run your tests, so only features specified w/ `esbuild.target`
 - vite targets browsers which support ESM modules, dynamic import, `import.meta`
 	- also use `BroadcastChannel` to communicate b/w iframes 
-
 # running tests 
 - vitest will try to run specified browser using `preview` but we can also use `headless` mode 
 	- `preview` opens the browser; `headless` doesn't 
-
 # limitations
 ## thread blocking dialogs
-- `alerts` or `dialog` cannot be used cos it stops browser communication w/ vitest 
+- `alerts` or `dialog` or `confirm` cannot be used cos it stops browser communication w/ vitest 
 - vitest provides **default mocks** with **default returned values** -> we should mock the values ourselves
 ## spying on module exports
 - browser mode uses browser's native ESM support to serve modules
