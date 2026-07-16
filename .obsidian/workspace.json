@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8718e9fa115e7bc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vitest.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "vitest"
-            }
-          },
-          {
             "id": "c5a6d80f30c1c443",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pgboss.md",
+                "file": "databases/Postgres permissions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "pgboss"
+              "title": "Postgres permissions"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -163,8 +138,11 @@
   },
   "active": "c5a6d80f30c1c443",
   "lastOpenFiles": [
-    "vitest.md",
+    "Pasted image 20260716142915.png",
+    "databases/RDS proxy.md",
+    "databases/Postgres permissions.md",
     "pgboss.md",
+    "vitest.md",
     "distributed systems/CockroachDB.md",
     "AWS/cidr.md~",
     "databases/data modelling.md",
@@ -195,9 +173,6 @@
     "AWS/s3.md",
     "daily/2024/May/21.md",
     "daily/2024/May/16.md",
-    "daily/2024/May/20.md",
-    "daily/2024/May/17.md",
-    "databases/1715833900-INDM.md",
     "leetcode/135",
     "Untitled 1.canvas",
     "Untitled.canvas",
