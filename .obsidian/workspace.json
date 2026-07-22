@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "databases/Postgres permissions.md",
+                "file": "databases/locks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Postgres permissions"
+              "title": "locks"
+            }
+          },
+          {
+            "id": "d288e3af82f9a0d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "iron session.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "iron session"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.50271224975586
+    "width": 247.50271224975586,
+    "collapsed": true
   },
   "right": {
     "id": "790d725480195d0c",
@@ -136,11 +162,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c5a6d80f30c1c443",
+  "active": "d288e3af82f9a0d0",
   "lastOpenFiles": [
+    "iron session.md",
+    "databases/locks.md",
+    "databases/Postgres permissions.md",
     "Pasted image 20260716142915.png",
     "databases/RDS proxy.md",
-    "databases/Postgres permissions.md",
     "pgboss.md",
     "vitest.md",
     "distributed systems/CockroachDB.md",
@@ -172,7 +200,6 @@
     "daily/2024/July/11.md~",
     "AWS/s3.md",
     "daily/2024/May/21.md",
-    "daily/2024/May/16.md",
     "leetcode/135",
     "Untitled 1.canvas",
     "Untitled.canvas",
