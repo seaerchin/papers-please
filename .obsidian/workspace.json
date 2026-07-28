@@ -8,36 +8,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d288e3af82f9a0d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "iron session.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "iron session"
-            }
-          },
-          {
             "id": "df7dedd155a03d4e",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "9da46a91b296aac9",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "rds iam.md",
+                "file": "gh stack.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "rds iam"
+              "title": "gh stack"
             }
           }
         ],
@@ -113,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.50271224975586,
-    "collapsed": true
+    "width": 247.50271224975586
   },
   "right": {
     "id": "790d725480195d0c",
@@ -162,8 +147,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df7dedd155a03d4e",
+  "active": "9da46a91b296aac9",
   "lastOpenFiles": [
+    "glasses.py",
+    "gh stack.md",
+    "Untitled 1.base",
+    "Untitled 3.base",
+    "Untitled.base",
+    "Untitled 2.base",
     "rds iam.md",
     "iron session.md",
     "databases/locks.md",
@@ -181,15 +172,11 @@
     "intercom.md",
     "claude/specs for LLMs.md",
     "claude",
-    "Untitled.base",
     "daily/2024/July/04.md",
-    "Untitled 1.base",
-    "Untitled 3.base",
     "rust/Traits.md",
     "rust/tips and tricks.md",
     "rust/rust book/stack + heap.md",
     "rust/ratatui/How it works.md",
-    "Untitled 2.base",
     "isomer/incidents.md",
     "rust/ratatui",
     "infra/Docker.md",
@@ -197,9 +184,7 @@
     "AWS/athena.md",
     "daily/2024/July/11.md",
     "daily/2024/July/12.md~",
-    "daily/2024/July/12.md",
     "daily/2024/July/11.md~",
-    "AWS/s3.md",
     "leetcode/135",
     "Untitled 1.canvas",
     "Untitled.canvas",
