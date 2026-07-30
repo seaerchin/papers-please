@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gh stack.md",
+                "file": "AWS/lambda@edge.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "gh stack"
+              "title": "lambda@edge"
             }
           }
         ],
@@ -149,10 +149,11 @@
   },
   "active": "9da46a91b296aac9",
   "lastOpenFiles": [
+    "gh stack.md",
+    "AWS/lambda@edge.md",
     "equal_segments.py",
     "equal_segments",
     "glasses.py",
-    "gh stack.md",
     "Untitled 1.base",
     "Untitled 3.base",
     "Untitled.base",
@@ -185,7 +186,6 @@
     "AWS/ddb.md",
     "AWS/athena.md",
     "daily/2024/July/11.md",
-    "daily/2024/July/12.md~",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "rust/Untitled.canvas"
