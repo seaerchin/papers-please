@@ -8,3 +8,7 @@ when a cloudfront distribution is associated with a lambda, we can execute the l
 
 WAF executes **before** lambda@edge!
 # event structure
+
+contains [information](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-event-structure.html#lambda-event-structure-response) about the origin etc. this can be used to identify the origin that the request will be forwarded to. 
+
+additionally, this allows us to do dynamic origin selection also - we can update the `origin` key to another value for cloudfront to route the request to that new origin

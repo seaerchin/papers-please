@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/lambda@edge.md",
+                "file": "AWS/lambda execution.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lambda@edge"
+              "title": "lambda execution"
             }
           }
         ],
@@ -149,8 +149,10 @@
   },
   "active": "9da46a91b296aac9",
   "lastOpenFiles": [
-    "gh stack.md",
+    "Pasted image 20260730124016.png",
     "AWS/lambda@edge.md",
+    "AWS/lambda execution.md",
+    "gh stack.md",
     "equal_segments.py",
     "equal_segments",
     "glasses.py",
@@ -184,8 +186,6 @@
     "rust/ratatui",
     "infra/Docker.md",
     "AWS/ddb.md",
-    "AWS/athena.md",
-    "daily/2024/July/11.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "rust/Untitled.canvas"
