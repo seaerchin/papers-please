@@ -99,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.50271224975586,
-    "collapsed": true
+    "width": 247.50271224975586
   },
   "right": {
     "id": "790d725480195d0c",
@@ -150,9 +149,10 @@
   },
   "active": "9da46a91b296aac9",
   "lastOpenFiles": [
+    "AWS/cidr.md",
+    "AWS/lambda execution.md",
     "Pasted image 20260730124016.png",
     "AWS/lambda@edge.md",
-    "AWS/lambda execution.md",
     "gh stack.md",
     "equal_segments.py",
     "equal_segments",
