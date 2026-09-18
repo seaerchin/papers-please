@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/lambda execution.md",
+                "file": "NestJS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lambda execution"
+              "title": "NestJS"
+            }
+          },
+          {
+            "id": "81f70f695b6ed3cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bullmq.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "bullmq"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,11 +163,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9da46a91b296aac9",
+  "active": "81f70f695b6ed3cd",
   "lastOpenFiles": [
-    "AWS/cidr.md",
-    "AWS/lambda execution.md",
+    "NestJS.md",
+    "bullmq.md",
     "Pasted image 20260730124016.png",
+    "AWS/lambda execution.md",
+    "AWS/cidr.md",
     "AWS/lambda@edge.md",
     "gh stack.md",
     "equal_segments.py",
@@ -164,7 +191,6 @@
     "AWS/cidr.md~",
     "databases/data modelling.md",
     "databases/orm.md",
-    "NestJS.md",
     "testing.md",
     "intercom.md",
     "claude/specs for LLMs.md",
@@ -177,7 +203,6 @@
     "isomer/incidents.md",
     "rust/ratatui",
     "infra/Docker.md",
-    "AWS/ddb.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "rust/Untitled.canvas"
